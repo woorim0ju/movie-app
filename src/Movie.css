@@ -1,0 +1,29 @@
+.movie img {
+    width: 30%;
+    margin-right: 2%;
+ }
+ 
+ .movie h5{
+     font-weight: 300;
+ }
+ 
+ .movie_title{
+     font-weight: 700;
+     font-size: 14px;
+     width:250px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+ 
+ }
+ 
+ /* .movie_summary, .genres > li{
+     overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical;
+ } */
+ 
+ .genres{
+     display: flex;
+     padding: 0;
+ }
+ 
+ .genres > li{
+     margin-right: 10px;
+     list-style: none;
+ }
